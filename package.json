@@ -42,5 +42,18 @@
     "hooks": {
       "pre-commit": "npm test"
     }
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assebc/github-activity-readme-stats.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/assebc/github-activity-readme-stats/issues"
+  },
+  "homepage": "https://github.com/assebc/github-activity-readme-stats#readme"
 }
