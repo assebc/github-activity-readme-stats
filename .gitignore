@@ -7,6 +7,7 @@ package-lock.json
 .idea/
 coverage
 vercel_token
+nvm/
 
 # IDE
 .vscode
