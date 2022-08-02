@@ -12,7 +12,7 @@ const fetcher = (variables, token) => {
     {
       query: `
       query userInfo($login: String!) {
-        user(login: assebc) {
+        user(login: "assebc") {
           # fetch only owner repos & not forks
           repositories(ownerAffiliations: OWNER, isFork: true, first: 100) {
             nodes {
